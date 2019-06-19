@@ -16,7 +16,7 @@ setup(
     author = 'Gnucoop',
     author_email = 'dev@gnucoop.com',
     url = 'https://github.com/gnucoop/falcors',
-    download_url = 'https://github.com/gnucoop/falcors/archive/master.zip',
+    download_url = 'https://github.com/gnucoop/falcors/archive/2.0.0.zip',
     keywords = ['falcon', 'cors', 'http'],
     classifiers = []
 )
