@@ -385,11 +385,9 @@ class CORS(object):
 
     def _get_resource_methods(self, resource):
         allowed_methods = []
+        handlers = set([h[3:].split('_')[0] for h in dir(resource) if h[:3] == 'on_'])
         for method in HTTP_METHODS:
-            if (
-                hasattr(resource, 'on_' + method.lower()) or
-                resource is None
-            ):
+            if method.lower() in handlers or resource is None:
                 allowed_methods.append(method)
         return allowed_methods
 

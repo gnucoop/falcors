@@ -1,13 +1,13 @@
-falcon_cors package
+falcors package
 ===================
 
 Submodules
 ----------
 
-falcon_cors.middleware module
+falcors.middleware module
 -----------------------------
 
-.. automodule:: falcon_cors.middleware
+.. automodule:: falcors.middleware
     :members:
     :undoc-members:
     :show-inheritance:
@@ -16,7 +16,7 @@ falcon_cors.middleware module
 Module contents
 ---------------
 
-.. automodule:: falcon_cors
+.. automodule:: falcors
     :members:
     :undoc-members:
     :show-inheritance:

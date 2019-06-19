@@ -1,4 +1,4 @@
-falcon
+falcon==1.4.1
 coverage
 ddt
 nose

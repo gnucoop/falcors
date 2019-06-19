@@ -7,16 +7,16 @@ with open(version_file) as version_file_handle:
     version = version_file_handle.read()
 
 setup(
-    name = "falcon-cors",
+    name = "falcors",
     version = version,
     description = "Falcon CORS middlware",
     package_dir = {"":"src"},
     packages = find_packages("src"),
     install_requires=["falcon"],
-    author = 'Colton Leekley-Winslow',
-    author_email = 'lwcolton@gmail.com',
-    url = 'https://github.com/lwcolton/falcon-cors',
-    download_url = 'https://github.com/lwcolton/falcon-cors/archive/master.zip',
+    author = 'Gnucoop',
+    author_email = 'dev@gnucoop.com',
+    url = 'https://github.com/gnucoop/falcors',
+    download_url = 'https://github.com/gnucoop/falcors/archive/master.zip',
     keywords = ['falcon', 'cors', 'http'],
     classifiers = []
 )

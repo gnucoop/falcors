@@ -1,7 +1,7 @@
-falcon_cors
+falcors
 ===========
 
 .. toctree::
    :maxdepth: 4
 
-   falcon_cors
+   falcors

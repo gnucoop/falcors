@@ -1,7 +1,7 @@
 import logging
 
 def get_default_logger(level=None):
-    logger = logging.getLogger("falcon_cors")
+    logger = logging.getLogger("falcors")
     logger.setLevel(logging.INFO)
     logger.propogate = False
     if not logger.handlers:
